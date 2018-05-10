@@ -39,7 +39,7 @@ public class EditarPais implements Command {
 		pais.setPopulacao(pPopulacao);
 		pais.setArea(pArea);
 
-		if (pAcao.equals("Criar")) {
+		
 			pPopulacao = Long.valueOf(Populacao);
 			pArea = Double.valueOf(Area);
 
@@ -47,7 +47,7 @@ public class EditarPais implements Command {
 			pais.setNome(pNome);
 			pais.setPopulacao(pPopulacao);
 			pais.setArea(pArea);
-		}
+		
 		// instanciar o service
 
 		PaisService cs = new PaisService();
